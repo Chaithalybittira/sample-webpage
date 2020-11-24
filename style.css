@@ -55,7 +55,7 @@
       margin: 1vw 0;
     }
   }
-  @media only screen and (max-width: 700px) {
+  @media only screen and (max-width: 700vw) {
     .column1 {
       width: 46vw;
       margin: 1vw 0;
@@ -87,7 +87,7 @@
       width: 31vw;
     }
   }
-  @media only screen and (max-width: 700px) {
+  @media only screen and (max-width: 700vw) {
     .column2 {
       width: 31vw;
     }
