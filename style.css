@@ -49,15 +49,27 @@
     float: left;
     height: 100%; /* Should be removed. Only for demonstration */
   }
-@media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 700vw) {
     .column1 {
       width: 46vw;
       margin: 1vw 0;
     }
   }
-  @media only screen and (max-width: 700px) {
+  @media only screen and (max-width: 600vw) {
     .column1 {
-      width: 46vw;
+      width: 45vw;
+      margin: 1vw 0;
+    }
+  }
+  @media only screen and (max-width: 500vw) {
+    .column1 {
+      width: 44vw;
+      margin: 1vw 0;
+    }
+  }
+  @media only screen and (max-width: 400vw) {
+    .column1 {
+      width: 43vw;
       margin: 1vw 0;
     }
   }
@@ -67,45 +79,35 @@
       width: 43vw;
     }
   }
-@media only screen and (max-width: 250px) {
-    .column1 {
-      width: 40vw;
-    }
-  }
-@media only screen and (max-width: 150px) {
-    .column1 {
-      width: 38vw;
-    }
-  }
   
   .column2 {
     float: left;
     height: 100%; /* Should be removed. Only for demonstration */
   }
-@media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 700vw) {
     .column2 {
       width: 31vw;
     }
   }
-  @media only screen and (max-width: 700px) {
+  @media only screen and (max-width: 600vw) {
     .column2 {
-      width: 31vw;
+      width: 30vw;
+    }
+  }
+  @media only screen and (max-width: 500vw) {
+    .column2 {
+      width: 29vw;
+    }
+  }
+  @media only screen and (max-width: 400vw) {
+    .column2 {
+      width: 28vw;
     }
   }
   
   @media only screen and (max-width: 500px) {
     .column2 {
       width: 27.5vw;
-    }
-  }
-@media only screen and (max-width: 250px) {
-    .column2 {
-      width: 26vw;
-    }
-  }
-@media only screen and (max-width: 150px) {
-    .column2 {
-      width: 24vw;
     }
   }
   
@@ -174,6 +176,24 @@
       margin: 1vw 0;
     }
   }
+  @media only screen and (max-width: 600vw) {
+    .column3 {
+      width: 37vw;
+      margin: 1vw 0;
+    }
+  }
+  @media only screen and (max-width: 500vw) {
+    .column3 {
+      width: 36vw;
+      margin: 1vw 0;
+    }
+  }
+  @media only screen and (max-width: 400vw) {
+    .column3 {
+      width: 35vw;
+      margin: 1vw 0;
+    }
+  }
   
   @media only screen and (max-width: 500px) {
     .column3 {
@@ -188,6 +208,21 @@
   @media only screen and (max-width: 700vw) {
     .column4 {
       width: 38vw;
+    }
+  }
+  @media only screen and (max-width: 600vw) {
+    .column4 {
+      width: 37vw;
+    }
+  }
+  @media only screen and (max-width: 500vw) {
+    .column4 {
+      width: 36vw;
+    }
+  }
+  @media only screen and (max-width: 400vw) {
+    .column4 {
+      width: 35vw;
     }
   }
   
