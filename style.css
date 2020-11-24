@@ -49,6 +49,12 @@
     float: left;
     height: 100%; /* Should be removed. Only for demonstration */
   }
+@media only screen and (max-width: 900px) {
+    .column1 {
+      width: 46vw;
+      margin: 1vw 0;
+    }
+  }
   @media only screen and (max-width: 700px) {
     .column1 {
       width: 46vw;
@@ -66,10 +72,20 @@
       width: 43vw;
     }
   }
+@media only screen and (max-width: 150px) {
+    .column1 {
+      width: 43vw;
+    }
+  }
   
   .column2 {
     float: left;
     height: 100%; /* Should be removed. Only for demonstration */
+  }
+@media only screen and (max-width: 900px) {
+    .column2 {
+      width: 31vw;
+    }
   }
   @media only screen and (max-width: 700px) {
     .column2 {
@@ -83,6 +99,11 @@
     }
   }
 @media only screen and (max-width: 250px) {
+    .column2 {
+      width: 27.5vw;
+    }
+  }
+@media only screen and (max-width: 150px) {
     .column2 {
       width: 27.5vw;
     }
