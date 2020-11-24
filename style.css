@@ -69,12 +69,12 @@
   }
 @media only screen and (max-width: 250px) {
     .column1 {
-      width: 43vw;
+      width: 40vw;
     }
   }
 @media only screen and (max-width: 150px) {
     .column1 {
-      width: 43vw;
+      width: 38vw;
     }
   }
   
@@ -100,12 +100,12 @@
   }
 @media only screen and (max-width: 250px) {
     .column2 {
-      width: 27.5vw;
+      width: 26vw;
     }
   }
 @media only screen and (max-width: 150px) {
     .column2 {
-      width: 27.5vw;
+      width: 24vw;
     }
   }
   
