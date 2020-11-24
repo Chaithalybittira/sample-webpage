@@ -49,7 +49,7 @@
     float: left;
     height: 100%; /* Should be removed. Only for demonstration */
   }
-  @media only screen and (max-width: 700vw) {
+  @media only screen and (max-width: 700px) {
     .column1 {
       width: 46vw;
       margin: 1vw 0;
@@ -61,18 +61,28 @@
       width: 43vw;
     }
   }
+@media only screen and (max-width: 250px) {
+    .column1 {
+      width: 43vw;
+    }
+  }
   
   .column2 {
     float: left;
     height: 100%; /* Should be removed. Only for demonstration */
   }
-  @media only screen and (max-width: 700vw) {
+  @media only screen and (max-width: 700px) {
     .column2 {
       width: 31vw;
     }
   }
   
   @media only screen and (max-width: 500px) {
+    .column2 {
+      width: 27.5vw;
+    }
+  }
+@media only screen and (max-width: 250px) {
     .column2 {
       width: 27.5vw;
     }
