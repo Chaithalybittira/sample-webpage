@@ -84,9 +84,6 @@
     display: table;
     clear: both;
   }
-  .row:hover{
-     color: rgb(187, 116, 8);
-  }
   div.gallery {
     border: 0.1 solid transparent;
   }
@@ -126,7 +123,7 @@
   
   @media only screen and (max-width: 500px) {
     .responsive {
-      width: 100%;
+      width: 33%;
     }
   }
   
